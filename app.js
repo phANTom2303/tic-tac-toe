@@ -1,1 +1,1 @@
-// tic tac toe javascrips
+// tic tac toe javascript
