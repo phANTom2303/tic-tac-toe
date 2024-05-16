@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     justify-content: center;
+    background-color: #25363E;
 }
 .board { 
     display: grid;
@@ -12,7 +13,26 @@ body {
     margin: 20px;
 }
 
+h1 {
+    background-color: #23262F;
+    color: #EBFA7E ;
+    padding: 10px;
+    border-radius: 10px; 
+    border: 4px solid #EBFA7E;
+}
+
 .board-place {
-    border: 2px solid black;
+    border: 3px solid #55D0AE;
     padding: 20px;
+    background-color: #EBFA7E;
+    border-radius: 5px;
+}
+
+.controls { 
+    background-color: #EBFA7E;
+    border: 3px solid #55D0AE;
+    color: #25363E;
+    font-size: large;
+    border-radius: 6px;
+    font-family: serif;
 }
